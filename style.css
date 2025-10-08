@@ -114,6 +114,6 @@ body{
   letter-spacing: 0.2px;
 }
 
-.h2 {
+h2 {
   font-size: var(--fz-secondary);
 }
