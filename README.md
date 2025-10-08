@@ -1,5 +1,4 @@
-![Frontend Mentor](https://img.shields.io/badge/Frontend%20Mentor-Challenge-4BC0F0?logo=frontendmentor&logoColor=white) ![#1](https://img.shields.io/badge/%231-red) [![Live Preview](https://img.shields.io/badge/Live-Preview-green)](https://твоя-ссылка-на-live-preview)
-
+![Frontend Mentor](https://img.shields.io/badge/Frontend%20Mentor-Challenge-4BC0F0?logo=frontendmentor&logoColor=white) ![#1](https://img.shields.io/badge/%231-red) [![Live Preview](https://img.shields.io/badge/Live-Preview-green)](https://svitlanarudova.github.io/qr-code-component-main/)
 
 
 # Frontend Mentor - QR code component
