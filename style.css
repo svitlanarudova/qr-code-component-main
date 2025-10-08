@@ -39,8 +39,8 @@ body{
 }
 
 .wrapper {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  place-items: center;
   min-block-size: 100dvh;
   background-color: var(--cl-slate-300);
 }
@@ -63,15 +63,9 @@ body{
     border: 0 !important
 }
 
-.main {
-  display: grid;
-  place-items: center;
-  flex-grow: 1;
-}
-
 .qr-code-component {
   max-inline-size: 320px;
-  padding: 0.625rem 0.625rem 2.5rem 0.625rem;
+  padding: 1rem 1rem 2.5rem 1rem;
   border-radius: var(--border-r-primary);
   background-color: var(--cl-white);
   box-shadow: var(--box-shadow);
@@ -121,9 +115,4 @@ body{
 
 h2 {
   font-size: var(--fz-secondary);
-}
-
-.footer {
-  margin-block-start: auto;
-  padding-block: 2rem;
 }
