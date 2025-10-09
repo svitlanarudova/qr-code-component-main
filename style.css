@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
 :root {
-  --w-max: 1440px;
+  --w-max: 96em;
   --padding-wrapper: 1rem;
+
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2.5rem;
 
   --ff-primary: "Outfit", sans-serif;
   --fz-primary: 0.9375rem;
@@ -77,15 +81,18 @@ body{
 }
 
 .qr-item {
-  max-inline-size: 320px;
-  padding: 1rem 1rem 2.5rem 1rem;
+  max-inline-size: 20rem; /* 320px*/
+  padding: var(--spacing-sm)
+           var(--spacing-sm)
+           var(--spacing-lg)
+           var(--spacing-sm);
   border-radius: var(--border-r-primary);
   background-color: var(--cl-white);
   box-shadow: var(--box-shadow);
 }
 
 .qr-item > *:not(:last-child) {
-  margin-block-end: 1.5rem;
+  margin-block-end: var(--spacing-md);
 }
 
 @media (any-hover: hover),
@@ -105,7 +112,6 @@ body{
   inline-size: 100%;
   block-size: 100%;
   object-fit: contain;
-
   will-change: transform;
   transform: translateZ(0);
   transition: transform var(--trans-img);
@@ -118,12 +124,12 @@ body{
 }
 
 .qr-item__content {
-  padding-inline: 1rem;
+  padding-inline: var(--spacing-sm);
   text-align: center;
 }
 
 .qr-item__content>*:not(:last-child) {
-  margin-block-end: 1rem;
+  margin-block-end: var(--spacing-sm);
 }
 
 .qr-item__title{
